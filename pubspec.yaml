@@ -1,0 +1,67 @@
+name: girls_app
+description: "Girls — Premium Period Tracking & Women's Wellness App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Networking
+  dio: ^5.4.3
+
+  # Auth
+  google_sign_in: ^6.2.1
+
+  # UI & Charts
+  fl_chart: ^0.67.0
+  table_calendar: ^3.1.2
+  lottie: ^3.1.2
+  shimmer: ^3.0.0
+
+  # Storage
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.2.3
+
+  # Location
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+
+  # Misc
+  intl: ^0.20.2
+  url_launcher: ^6.3.0
+  flutter_local_notifications: ^22.3.0
+  timezone: ^0.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+  assets:
+    - assets/images/
+    - assets/animations/
