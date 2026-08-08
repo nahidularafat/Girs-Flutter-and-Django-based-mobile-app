@@ -104,5 +104,5 @@ class AppStrings {
   static const String disclaimer = 'This is general wellness guidance, not medical advice. For persistent or severe symptoms, please consult a doctor.';
 
   // API
-  static const String baseUrl = 'http://127.0.0.1:8000/api/';
+  static const String baseUrl = 'https://girs-flutter-and-django-based-mobile-app.onrender.com/api/';
 }
